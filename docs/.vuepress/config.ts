@@ -4,46 +4,13 @@ import type { DefaultThemeOptions } from 'vuepress'
 export default defineUserConfig<DefaultThemeOptions>({
   base: '/daydayup/',
 
-  head: [
-    [
-      'link',
-      {
-        rel: 'icon',
-        type: 'image/png',
-        sizes: '16x16',
-        href: `/images/icons/favicon-16x16.png`,
-      },
-    ],
-    [
-      'link',
-      {
-        rel: 'icon',
-        type: 'image/png',
-        sizes: '32x32',
-        href: `/images/icons/favicon-32x32.png`,
-      },
-    ],
-    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
-    ['meta', { name: 'application-name', content: '天天向上' }],
-    ['meta', { name: 'apple-mobile-web-app-title', content: '天天向上' }],
-    [
-      'meta',
-      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
-    ],
-    [
-      'link',
-      { rel: 'apple-touch-icon', href: `/images/icons/apple-touch-icon.png` },
-    ],
-    [
-      'link',
-      {
-        rel: 'mask-icon',
-        href: '/images/icons/safari-pinned-tab.svg',
-        color: '#3eaf7c',
-      },
-    ],
-    ['meta', { name: 'msapplication-TileColor', content: '#3eaf7c' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+  head: [[
+    'link', {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: '32x32',
+      href: `/daydayup/images/icons/favicon-32x32.png`,
+    }]
   ],
 
   // 站点配置
@@ -55,5 +22,18 @@ export default defineUserConfig<DefaultThemeOptions>({
   theme: '@vuepress/theme-default',
   themeConfig: {
     logo: '/images/avatar.png',
+    navbar: [{
+      text: '职业认证',
+      children: [
+        {
+          text: '教师资格证',
+          link: '/teacher-cert/',
+        },
+        {
+          text: '软件设计师',
+          link: '/software-cert/',
+        }],
+    }
+    ],
   },
 })

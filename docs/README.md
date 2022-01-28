@@ -3,8 +3,8 @@ home: true
 title: Home
 heroImage: /images/avatar.png
 actions:
-  - text: Get Started
-    link: /guide/getting-started.html
+  - text: 教师资格证（中职）
+    link: /teacher-cert/
     type: primary
 features:
   - title: Simplicity
