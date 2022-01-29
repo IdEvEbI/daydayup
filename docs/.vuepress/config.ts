@@ -27,7 +27,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       children: [
         {
           text: '教师资格证',
-          link: '/teacher-cert/',
+          link: '/teacher-cert/overview.md',
         },
         {
           text: '软件设计师',
@@ -40,7 +40,8 @@ export default defineUserConfig<DefaultThemeOptions>({
           text: '教师资格证',
           children: [
             'overview.md',
-            'education-view.md'
+            'education-view.md',
+            'education-basic.md'
           ],
         }
       ],

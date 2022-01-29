@@ -4,7 +4,7 @@ title: Home
 heroImage: /images/avatar.png
 actions:
   - text: 教师资格证（中职）
-    link: /teacher-cert/
+    link: /teacher-cert/overview.md
     type: primary
 features:
   - title: Simplicity
