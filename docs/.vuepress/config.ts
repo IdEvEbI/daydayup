@@ -33,7 +33,17 @@ export default defineUserConfig<DefaultThemeOptions>({
           text: '软件设计师',
           link: '/software-cert/',
         }],
+    }],
+    sidebar: {
+      '/teacher-cert/': [
+        {
+          text: '教师资格证',
+          children: [
+            'overview.md',
+            'education-view.md'
+          ],
+        }
+      ],
     }
-    ],
   },
 })
