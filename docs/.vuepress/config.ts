@@ -40,7 +40,8 @@ export default defineUserConfig<DefaultThemeOptions>({
           text: '教师资格证',
           children: [
             'overview.md',
-            'professional-idea',
+            'professional-idea.md',
+            'composition.md',
             'education-basic.md'
           ],
         }

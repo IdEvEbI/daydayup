@@ -8,7 +8,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "commit": "cz"
+    "commit": "cz",
+    "deploy": "./deploy"
   },
   "devDependencies": {
     "commitizen": "^4.2.4",
