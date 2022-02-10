@@ -42,6 +42,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             'overview.md',
             'professional-idea.md',
             'composition.md',
+            'cultural.md',
             'education-basic.md',
             'course.md',
             'teaching.md'
